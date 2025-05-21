@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:padding="4sp"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/logo"
+            style="@style/MyTextViewStyle"
+            android:text="@string/logo"/>
+
+        <EditText
+            android:id="@+id/user_field"
+            style="@style/MyTextEditStyle"
+            android:layout_below="@+id/logo"
+            android:ems="10"
+            android:inputType="text"
+            android:backgroundTint="@color/color_tint"
+            android:hint="@string/hint_user_field"
+            android:textColorHint="@color/color_hint"/>
+
+        <Button
+            android:id="@+id/main_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/user_field"
+            android:text="@string/main_btn" />
+
+        <TextView
+            android:id="@+id/result_info"
+            style="@style/MyTextViewStyle"
+            android:layout_below="@id/main_btn" />
+
+
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

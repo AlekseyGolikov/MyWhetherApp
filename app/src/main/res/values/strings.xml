@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">MyWhetherApp</string>
+    <string name="action_settings">Settings</string>
+    <string name="logo">Погода в вашем городе</string>
+    <string name="main_btn">Получить данные</string>
+    <string name="hint_user_field">Введите город</string>
+    <string name="no_user_input">Введите текст!</string>
+</resources>
